@@ -136,7 +136,7 @@ input:focus{outline: none;}
     display:block;
 }
 #weather{
-    font-size: 30px;
+    font-size: 31px;
     color: white;
     position:fixed;
     right:30px;
