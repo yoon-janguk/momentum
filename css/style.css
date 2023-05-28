@@ -135,6 +135,16 @@ input:focus{outline: none;}
 #quote-text{
     display:block;
 }
+#weather{
+    font-size: 30px;
+    color: white;
+    position:fixed;
+    right:30px;
+    top: 30px;
+}
+#weather span:first-child{
+    display: block;
+}
 .log-out{
     background-color: transparent;
     color:white;
