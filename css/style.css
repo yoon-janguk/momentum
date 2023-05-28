@@ -1,0 +1,150 @@
+@font-face {
+    font-family: 'greeting';
+    src: url("Anton/Anton-Regular.ttf");
+}
+@font-face {
+    font-family: 'quote';
+    src: url("Lobster/Lobster-Regular.ttf");
+}
+#hidden {
+    display: none;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: hidden;
+}
+.login-form{
+    margin-top: 200px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#ask-name{
+    font-size:70px;
+    color:white;
+    /* font-family: 'greeting'; */
+}
+input:focus{outline: none;}
+#name-input{
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 3px solid white;
+    width: 700px;
+    height: 80px;
+    font-size: 70px;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+.name-required{
+    font-size:50px;
+    color:white;
+}
+#clock{
+    margin-top:40px;
+    color:white;
+
+}
+.clock-small{
+    font-size: 50px;
+}
+.clock-big{
+    font-size:150px;
+
+}
+.after-login{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.greeting{
+    font-size: 100px;
+    color: white;
+}
+#greeting_back{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#todo{
+    display: flex;
+    
+}
+#ask-todo{
+    display: block;
+    color: white;
+    font-size: 50px;
+}
+#input-todo{
+    background-color: transparent;
+    border: 0px;
+    border-bottom: 3px solid white;
+    width: 350px;
+    height: 50px;
+    font-size: 30px;
+    color: white;
+    margin-top: 20px;
+    text-align: center;
+}
+.todo-list{
+    margin-left:50px;
+    padding-right:40px;
+    height: auto;
+    color:white;
+    border: 3px white solid;
+    border-radius: 10%;
+    display:flex;
+    flex-direction:column;
+}
+#what-todo{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: block;
+    color: white;
+    font-size: 30px;
+}
+#todo-list-in{
+    color: white;
+    margin-right:20px;
+    font-size: 30px;
+}
+#close-todo{
+    margin-left: 100px;
+    margin-right: 100px;
+    display: block;
+    color: white;
+    font-size: 30px;
+}
+#quote{
+    font-family: quote;
+    color: white;
+    font-size: 30px;
+    margin-top:100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#quote-text{
+    display:block;
+}
+.log-out{
+    background-color: transparent;
+    color:white;
+    width: 100px;
+    height: 50px;
+    background-color: rgb(124, 124, 124,0.5);
+    border:none;
+    border-radius: 10%;
+    font-size: 25px;
+    position:fixed;
+    right:30px;
+    bottom: 30px;
+}

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Momentum</title>
+</head>
+<body>
+    <form id="hidden" class="login-form">
+        <span id="ask-name">Hello, What's your name?</span>
+        <input 
+            id="name-input"
+            maxlength="15" 
+            type="text"/>
+        </form>
+    <span id="hidden" class="name-required">write you name</span>
+    <span id="clock" class="clock-small">00:00</span>
+
+
+
+    <div id="hidden" class = "after-login">
+        <div id="greeting_back">
+            <span class="greeting"></span>
+        </div>
+        <button class="log-out">Log out</button>
+        <div id="todo">
+            <form id="todo-form">
+                <span id="ask-todo">what's your plan</span>
+                <input id="input-todo" type="text" required>
+            </form>
+            <ul id="hidden" class="todo-list">
+                <span id="what-todo">-plan-</span>
+                <span id="close-todo">-close-</span>
+                
+            </ul>
+        </div>
+        <div id="quote">
+            <span id="quote-text"></span>
+            <span id="author-text"></span>
+        </div>
+        <div id="weather">
+            <span></span>
+            <span></span>
+    </div>
+
+    </div>
+    <script src="./js/clock.js"></script>
+    <script src="./js/newtodo.js"></script>
+    <script src="./js/quotes.js"></script> 
+    <script src="./js/background.js"></script> 
+    <script src="./js/todo_plan.js"></script> 
+    <script src="./js/logout.js"></script> 
+    <script src="./js/weather.js"></script> 
+    
+</body>
+</html>  
